@@ -30,8 +30,8 @@ int main(){
     // Chama a função 'tabuleiro' para mostrar o tabuleiro inicial (cheio de zeros).
     // 'm' é o tabuleiro, e '10' é o tamanho (10x10).
     tabuleiro(m, 10);
-    
-    // Movimentação do Navio
+
+    // Movimentação do Navio (nivel Novato)
 
     // >>> NAVIO HORIZONTAL (3 casas)
     m[2][4] = 3;
