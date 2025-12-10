@@ -31,5 +31,17 @@ int main(){
     // 'm' é o tabuleiro, e '10' é o tamanho (10x10).
     tabuleiro(m, 10);
     
+    // Movimentação do Navio
+
+    // >>> NAVIO HORIZONTAL (3 casas)
+    m[2][4] = 3;
+    m[2][5] = 3;
+    m[2][6] = 3;
+
+    // >>> NAVIO VERTICAL (3 casas)
+    m[5][1] = 3;
+    m[6][1] = 3;
+    m[7][1] = 3;
+    
     return 0;
 }
